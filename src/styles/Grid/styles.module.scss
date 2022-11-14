@@ -1,0 +1,27 @@
+.leftpanel {
+    background-color: #ECEFF5;
+}
+
+.rightpanel {
+    display: flex;
+
+    .resetdata {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bolder;
+        align-self: flex-end;
+        margin-left: auto;
+        padding: 1rem;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #C42847;
+            color: white;
+        }
+    }
+}
+
+.maingrid {
+    display: grid;
+    grid-template-columns: 0.25fr auto;
+    height: 100vh;
+}
